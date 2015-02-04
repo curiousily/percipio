@@ -1,7 +1,7 @@
 {
   "name": "percipio",
   "version": "0.0.1",
-  "description": "Easy Data science (Machine learning) in JavaScript & Node.js",
+  "description": "Easy Data science (Machine learning) in JavaScript & Node",
   "main": "src/index.js",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha --harmony -w"
