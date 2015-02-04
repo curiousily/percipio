@@ -6,8 +6,8 @@ var createArm = require('../src/bandits').createArm
 
 describe("Bandit Predictor", function() {
 
-    function predictionResult( p ){
-        if (  Math.random() < p){ return 1 } else { return 0 }
+    function simulateResult(p){
+        return Math.random() < p ? 1 : 0
     }
 
     beforeEach(function* () {
@@ -31,7 +31,7 @@ describe("Bandit Predictor", function() {
         for (var i = 0; i < 1000; i++) {
             var arm = predictor.predict() 
             var p = armProbabilities[arm.id]
-            predictor.learn(arm, predictionResult(p))
+            predictor.learn(arm, simulateResult(p))
         }
         test2Prob = predictor.posteriorProbabilities()[1]
         mode = test2Prob.indexOf(_.max(test2Prob))
