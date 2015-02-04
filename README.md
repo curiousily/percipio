@@ -9,7 +9,7 @@ Percipio is a simple minimalistic JavaScript library for understanding & making 
 # Quick Start
 
 Let's find out which programming language is better! Java or C#, anyone? (this might be a bit contrived example...)
-We can model this using simple Multi-armed bandit experiment ([Multi-armed bandit experiments are even used by Google](https://support.google.com/analytics/answer/2844870?hl=en Multi-armed bandit experiments are used even by Google))
+We can model this using simple Multi-armed bandit experiment ([Multi-armed bandit experiments are even used by Google](https://support.google.com/analytics/answer/2844870?hl=en))
 
 ### Experiment setup
 
