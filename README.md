@@ -1,4 +1,4 @@
-# Percipio - Easy Data Science in JavaScript & Node
+# Percipio - Easy Data Science (Machine Learning) in JavaScript & Node
 
 Percipio is a simple minimalistic JavaScript library for understanding & making decisions with data.
 
