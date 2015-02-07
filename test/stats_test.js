@@ -1,5 +1,5 @@
 var should = require('chai').should()
-var Stats = require('../src/stats')
+var Stats = require('../src').stats
 
 describe("Stats", function() {
 

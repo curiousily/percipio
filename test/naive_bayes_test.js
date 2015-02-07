@@ -1,6 +1,6 @@
 var should = require('chai').should()
 var _ = require("underscore")
-var Predictor = require('../src/naive_bayes').Predictor
+var Predictor = require('../src').naiveBayes.Predictor
 
 describe("Naive Bayes Predictor", function() {
 

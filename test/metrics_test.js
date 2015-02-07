@@ -1,6 +1,6 @@
 var should = require('chai').should()
 var _ = require("underscore")
-var totalRegret = require('../src/metrics').totalRegret
+var totalRegret = require('../src').metrics.totalRegret
 
 describe("Metrics", function() {
 
