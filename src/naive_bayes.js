@@ -1,6 +1,6 @@
 var _ = require("underscore")
 
-var Predictor = function(arms) {
+var Predictor = function() {
 
     var self = {}
     self.totalCount = 0
