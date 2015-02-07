@@ -2,6 +2,11 @@
 
 Percipio is a simple minimalistic JavaScript library for understanding & making decisions with data.
 
+# Features
+
+- Bayesian Bandit algorithm (using Thompson sampling)
+- Naive Bayes classifier
+
 # Install
 
     npm install percipio
@@ -110,7 +115,6 @@ console.log(cSharpProbabilities)
 
 Pretty alphaish, I guess. Looking forward to implement
 
-- Naive Bayes
 - kNN
 - Linear regression
 - Data loaders/importers
